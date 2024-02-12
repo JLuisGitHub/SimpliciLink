@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Error 404</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/BarraBusqueda.css">
+    <!--CDN BOOSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">SimpliciLink<img id="icon" src="iconos\icon.png" href="index.html" ></h1>
+        <!--Aquí comienza la barra de busqueda-->
+<div class="search-container">
+    <input type="text" id="searchInput" oninput="search()" placeholder="Buscar...">
+    <div id="searchResults" class="search-results-container">
+        <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </div>
+</div>
+<script src="BarraBusqueda.js"></script>
+<!--Y Aquí termina-->
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+            <li><a href="educacion.html">Educación de Seguridad</a>
+            <li><a href="contacto.html">Contáctanos</a></li>
+            <li><a href="acerca.html">Mas Informacion</a>
+                <ul>
+                    <li><a href="acerca.html">Acerca de nosotros</a></li>
+                    <li><a href="terminos.html">Terminos y condiciones</a></li>
+                    <li><a href="descargas.html">Descargas</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <!-- Breadcrumb -->
+<div id="breadcrumb">
+        <a href="index.html">Inicio</a>
+    </div>
+    <div class="content">
+      <h2>Parece que hubo un error</h2>
+      <img src="https://martinbrainon.com/inicio/wp-content/uploads/2017/04/false-2061132_1280.png">
+    </div>
+</html>

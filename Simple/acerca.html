@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpliciLink - Tu Guía en el Mundo Digital</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/BarraBusqueda.css">
+    <!--CDN BOOSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">SimpliciLink<img id="icon" src="iconos\icon.png" href="index.html" ></h1>
+        <!--Aquí comienza la barra de busqueda-->
+<div class="search-container">
+    <input type="text" id="searchInput" oninput="search()" placeholder="Buscar...">
+    <div id="searchResults" class="search-results-container">
+        <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </div>
+</div>
+<script src="BarraBusqueda.js"></script>
+<!--Y Aquí termina-->
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+            <li><a href="educacion.html">Educación de Seguridad</a>
+            <li><a href="contacto.html">Contáctanos</a></li>
+            <li><a href="acerca.html">Mas Informacion</a>
+                <ul>
+                    <li><a href="acerca.html">Acerca de nosotros</a></li>
+                    <li><a href="terminos.html">Terminos y condiciones</a></li>
+                    <li><a href="descargas.html">Descargas</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <!-- Breadcrumb -->
+<div id="breadcrumb">
+        <a href="index.html">Inicio</a> > <a href="acerca.html">Acerca de nosotros</a>
+    </div>
+     <div class="content">
+        <h2>Acerca de Nosotros</h2>
+        <p>SimpliciLink es una empresa dedicada a simplificar el uso de la tecnología para todas las edades. Nos esforzamos por crear aplicaciones móviles intuitivas y fáciles de usar que ayuden a las personas a aprovechar al máximo sus dispositivos inteligentes.</p>
+        <p>Nuestro equipo está formado por expertos en diseño de experiencia de usuario, desarrollo de aplicaciones móviles y seguridad informática. Nos apasiona ofrecer soluciones innovadoras que hagan que la tecnología sea accesible para todos.</p>
+        <p>En SimpliciLink, creemos en la importancia de la educación en seguridad informática. Por eso, no solo proporcionamos herramientas para simplificar el uso de la tecnología, sino que también ofrecemos recursos y consejos para ayudar a los usuarios a proteger su información personal y navegar de forma segura en línea.</p>
+        <p>Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte a aprovechar al máximo tu experiencia digital.</p>
+    </div>
+</html>
